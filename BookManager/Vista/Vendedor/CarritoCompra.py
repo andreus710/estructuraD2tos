@@ -21,7 +21,7 @@ class CarritoCompra(tk.Toplevel):
         self.geometry(f"400x450+{posicion_x}+{posicion_y}")
 
         # Icono del carrito de compras
-        self.icon_path = "Vendedor/iconos/carrito-de-compras.png"
+        self.icon_path = "BookManager/Vista/Vendedor/iconos/carrito-de-compras.png"
         self.icon = ImageTk.PhotoImage(Image.open(self.icon_path).resize((24, 24)))
         tk.Label(self, image=self.icon, bg="white").pack(pady=10)
 

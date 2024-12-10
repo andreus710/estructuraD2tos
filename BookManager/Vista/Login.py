@@ -45,7 +45,6 @@ class Login(Tk):
         if rol:
             self.withdraw()  # Oculta la ventana de Login en lugar de destruirla
             if rol == "admin":
-                # Parte de Luis (Administrador)
                 self.abrir_interfaz_administrador()
             elif rol == "usuario":
                 self.abrir_interfaz_vendedor()
